@@ -30,7 +30,6 @@ a {
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
 	transition:all 0.5s;
-	border-bottom: 1px dashed;
 	outline:none!important;
 }
 a:hover,a:focus,a:active {
@@ -907,6 +906,10 @@ img.grayscale:hover {
 .team img {
 	margin-bottom:20px;
 }
+.managers {
+	color: white;
+	font-family:'Varela Round',sans-serif;
+}
 ul.social-buttons {
 	list-style:none;
 	margin:0;
@@ -935,6 +938,13 @@ ul.social-buttons li:last-child {
 }
 .social {
 	margin-top: 25px
+}
+.contact-info {
+	font-size: 20px;
+	color: #545454;
+}
+.contact-info a {
+	color: #545454;
 }
 /* ==========================================================================Contact========================================================================== */
 .up-btn {
